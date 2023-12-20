@@ -1,0 +1,341 @@
+/*#bg{
+	animation-name: text;
+	animation-duration: 4s;
+}
+@Keyframes text{
+	from{background-image: url('rickypic/Msunset.png');}
+	to{background-image: url('rickypic/backg.png');}
+}*/
+@media only screen and (max-width: 375px), (max-width: 320px){
+	header{
+		visibility: visible;
+		width: 50%;
+		height: 50%;
+	}
+}
+@media only screen and (max-width: 375px), (max-width: 320px){
+	.lname{
+		padding-left: 10px;
+		font-size: 12px;
+	}
+	#bg{
+	width: auto;
+	}
+	#log{
+		width: auto;
+		border-radius: 20%;
+		padding: 0;
+	}
+	body{
+		width: fit-content;
+	}
+	footer{
+		width: auto;
+	}
+	#fpart{
+		width: fit-content;
+		justify-content: center;
+	}
+    .subscribe{
+		width: auto;
+		font-size: 8px;
+		height: 10px;
+	}
+
+}
+
+header{
+	flex-wrap: wrap;
+	position: fixed;
+	width: 100%; 
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+    background-color: black;
+    background: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3));
+	/*display: flex;*/
+	justify-content: space-between;
+	align-items: center;
+	/*padding:  0px 0%;*/
+}
+#logo{
+    border-radius: 80%;
+    height: 70px;
+    margin-left: 30px;
+    float: left;
+
+}
+.logoname{
+	padding-top: 10px;
+    font-size: 50px;
+	text-align: center;
+	align-items: flex-start;
+	padding-left: 3.5%;
+	padding-bottom: 20px;
+	float: left;
+}
+.lname{
+	padding-left: 20px;
+	font-size: 26px;
+}
+a{
+	border-radius: 5px;
+	display: inline-flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+a:hover{
+	color: lightgray;
+	display: inline-flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+nav{
+	float: right;
+	margin-right: 30px;
+}
+.nav__links{
+	list-style: none;
+}
+.nav__links li{
+	display: inline-flex;
+	padding: 10px 10px;
+	gap: 5px;
+}
+.nav__links li a{
+		text-align: center;
+	    width: 100px;
+		color: white;
+		font-size: 19px;
+		outline: none;
+		margin-top: 0px;
+		font-style: impact rgb(223, 207, 207);
+		display: inline-flex;
+		text-decoration: none;
+}
+.nav__links li a:hover{
+	color: black;
+}
+#body{
+   	/*background: linear-gradient(to right, violet,darkviolet,darkblue);*/
+   	background-image: url(rickypic/Msunset.png);
+   	background-position: center;
+   	background-size: cover;
+   	padding: 40px;
+   
+}
+#bg{
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 80px;
+	background:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5));
+	background-size: cover;
+	background-position: center;
+}
+input{
+	 width: 100%;
+     height: 20px;
+     padding: 8px, 0;
+     border-style: dashed;
+     border-color: green;
+}
+
+#log{
+	/*background-color: lightgray;
+	width: 23%;
+	margin-left: 40%;
+	padding-bottom:20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;*/
+	padding: 60%;
+	color: white;
+	background:transparent;
+    min-height: 200px;
+    width: 300px; 
+    margin-left: auto;
+    margin-right: auto;	
+    padding: 20px;
+    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(rickypic/waves.png);
+    background-position: center;
+    background-size: cover;
+    /*position: relative;*/
+    border-radius: 6px;
+   
+   
+}
+
+#logbut{
+	width: 30%;
+	height: 10%;
+	padding-bottom: 100px;
+	padding: 3px 0;
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: green;
+}
+#logbut:hover{
+	background-color: indianred;
+	color: white;
+}
+#resbut{
+	width: 30%;
+	height: 10%;
+	padding-bottom: 100px;
+	padding: 3px 0;
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: darkred;
+	color: white;
+}
+#resbut:hover{
+	background-color: lightgreen;
+	color: black;
+	transform: translateY(-30px);
+}
+#sign{
+	/*background-color: lightgray;
+	width: 23%;
+	margin-left: 40%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;*/
+	padding: 60%;
+	color: white;
+	 background:transparent;
+    min-height: 200px;
+    width: 300px; 
+    margin-left: auto;
+    margin-right: auto;	
+    padding: 20px;
+    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url(rickypic/waves.png);
+    background-position: center;
+    background-size: cover;
+ 	background-color: #808080;		
+}
+.signbut{
+	width: 30%;
+	height: 10%;
+	padding-bottom: 100px;
+	padding: 3px 0;
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: green;
+}
+.signbut:hover{
+	background-color: indianred;
+	color: white;
+}
+.resetbut{
+	width: 30%;
+	height: 10%;
+	padding-bottom: 100px;
+	padding: 3px 0;
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: darkred;
+	color: white;
+}
+.resetbut:hover{
+	background-color: lightgreen;
+	color: black;
+
+}
+#welcomeadd{
+	background-color: lightgray;
+	width: 300px;
+	border: 10px solid white;
+	padding: 50px;
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ /*h2,p{
+	text-align: center;
+	width: 400px;
+    background-color: lightgray;
+    border: 5px solid white;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+footer{
+   background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('rickypic/program.png');
+   background-position: center;
+   background-size: cover;
+   height: 500px;
+   margin-right: 0;
+   padding: 50px 10px;
+   padding-bottom: 0;
+   text-align: center;
+   color: whitesmoke;
+
+}
+
+#fpart, h2{
+	color: white;
+	font-size: 21px;
+	display: flow-root;
+	text-align: center;
+
+}
+#fmail{
+	color: black;
+	background-color: lightgray;
+	width: 20%;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 100px;
+	border-style: double;
+	border-color: whitesmoke;
+}
+.subscribe{
+	color: whitesmoke;
+	background: transparent;
+	width: 15%;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bolder;
+	font-style: oblique;
+	line-height: 1rem;
+	border-style: solid;
+	border-color: whitesmoke ;
+	border-radius: 10px;
+}
+.subscribe:hover{
+	background-color: darkred;
+	color: whitesmoke;
+	border-color: green;
+
+}
+/*.uselink{
+	/*float: left;
+	background-color: transparent;
+	display: inline-flex;
+	flex-direction: row;
+	margin: 5px;
+	margin-bottom: 10px;
+	background-color: lightgray;
+	color: white;
+	Padding-top: 10px;
+	width: 10%;
+	padding: 10px 5%;
+	color: #1e1a1a;
+	display: block;
+	color: black;
+		
+}*/
